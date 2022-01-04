@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+#ct{
+    width: 70%;
+    height: 600px;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 250px 250px;
+    grid-gap: 20px;
+}
+#ct>div>img{
+    width: 100%;
+    height: 60%;
+}
+#ct>div{
+    margin-top: 10px;
+}
+#cc{
+    margin: auto;
+}
